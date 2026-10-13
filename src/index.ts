@@ -13,6 +13,7 @@ export type {
   ArkoseResult,
   ForterResult,
   Metadata1Result,
+  SeonResult,
   ErrorBody,
 } from "./types.js";
 
@@ -45,6 +46,7 @@ export const Tasks = {
   Pxm: "PxmTask",
   UeMsm: "UeMsmTask",
   Metadata1: "Metadata1Task",
+  Seon: "SeonTask",
 } as const;
 
 export type TaskName = (typeof Tasks)[keyof typeof Tasks];

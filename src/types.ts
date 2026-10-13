@@ -126,3 +126,12 @@ export interface Metadata1Result {
   step: string;
   solve_ms: number;
 }
+
+export interface SeonResult {
+  success: boolean;
+  token: string;
+  version: string;
+  userAgent: string;
+  elapsedMs: number;
+  error?: string;
+}
