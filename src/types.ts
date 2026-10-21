@@ -155,3 +155,12 @@ export interface AkamaiResult {
   solveMs?: number;
   error?: string;
 }
+
+export interface SecCptResult {
+  success: boolean;
+  cookie: string;
+  cookies?: Record<string, string>;
+  userAgent: string;
+  solveMs?: number;
+  error?: string;
+}
