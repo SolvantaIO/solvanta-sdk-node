@@ -135,3 +135,23 @@ export interface SeonResult {
   elapsedMs: number;
   error?: string;
 }
+
+export interface DataDomeResult {
+  success: boolean;
+  cookie: string;
+  cookies?: Record<string, string>;
+  userAgent: string;
+  method?: string;
+  posts?: number;
+  solveMs?: number;
+  error?: string;
+}
+
+export interface AkamaiResult {
+  success: boolean;
+  cookie: string;
+  cookies?: Record<string, string>;
+  userAgent: string;
+  solveMs?: number;
+  error?: string;
+}
